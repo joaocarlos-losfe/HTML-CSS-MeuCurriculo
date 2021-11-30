@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+}
+
+body
+{
+    font-family: Georgia, serif;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 1px solid #252d5c;
+    box-shadow: rgba(112, 112, 240, 0.25) 0px 2px 55px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+body:hover
+{
+    box-shadow: rgba(112, 163, 240, 0.25) 0px 2px 100px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.container
+{
+    max-width: 900px;
+    align-items: center;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.content
+{
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.2s;
+}
+
+.content:hover
+{
+    
+    box-shadow: rgba(25, 74, 148, 0.25) 0px 2px 100px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.my_info
+{
+    color: rgb(209, 209, 209);
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+}
+
+.profile h1
+{
+    font-size: 1.4rem;
+    background-color: transparent;
+}
+
+.profile img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.content h2
+{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: #fdfdfd;
+}
+
+.content p
+{
+    margin-top: 5px;
+    color: rgb(212, 212, 212);
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.content h3
+{
+    color: gray;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content li
+{
+    list-style: none;
+    color: #fdfdfd;
+    font-size: 1.0rem;
+    transition: 0.1s;
+}
+
+.content li:hover
+{
+    color: gray;
+    cursor: pointer;
+}
+
+.sub_title
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub_title img
+{
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 1rem;
+    padding: 3px;
+    border-radius: 50px;
+
+    height: 50px;
+    width: 50px;
+
+    transition: 0.3s;
+}
+
+.sub_title img:hover
+{
+    padding: 5px;
+    
+}
+
+.project
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom:10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    
+}
+
+.project .title
+{
+    margin-right: 100px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+
+.project p
+{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.project_img
+{
+    height: 150px;
+    min-height: 120px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.project_img:hover
+{
+    transform: scale(3);
+}
+
+.open_github
+{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.open_github img
+{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    transition: 0.3s;
+}
+
+a:hover
+{
+    color: rgb(131, 127, 127);
+}
+
