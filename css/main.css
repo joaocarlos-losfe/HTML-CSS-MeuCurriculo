@@ -50,6 +50,11 @@ body:hover
 
 }
 
+.content p 
+{
+    text-align: left;
+}
+
 .my_info
 {
     color: rgb(209, 209, 209);
